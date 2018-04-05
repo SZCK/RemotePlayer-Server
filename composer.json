@@ -1,0 +1,12 @@
+{
+    "require": {
+        "xtlsoft/nondb": "dev-master",
+        "workerman/workerman": "^3.5",
+        "mixcm/passportlib": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "RemotePlayer\\": "./src/"
+        }
+    }
+}

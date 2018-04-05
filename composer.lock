@@ -1,0 +1,139 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "bc4e4fd42af6ebd0e27b42d4d0e1df8f",
+    "packages": [
+        {
+            "name": "mixcm/passportlib",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mixcm/PassportLib.git",
+                "reference": "9b5d56c57fbce86fee1a43a9a629a845fc5beb6b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/mixcm/PassportLib/9b5d56c57fbce86fee1a43a9a629a845fc5beb6b.zip",
+                "reference": "9b5d56c57fbce86fee1a43a9a629a845fc5beb6b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mixcm\\PassportLib\\": "./src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tianle Xu",
+                    "email": "xtl@xtlsoft.top"
+                }
+            ],
+            "description": "The passport library for passport Authserver.",
+            "time": "2017-12-29T13:46:40+00:00"
+        },
+        {
+            "name": "workerman/workerman",
+            "version": "v3.5.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/walkor/Workerman.git",
+                "reference": "f6e129079e5f5398bffc218024f2dd95678fc564"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/walkor/Workerman/f6e129079e5f5398bffc218024f2dd95678fc564.zip",
+                "reference": "f6e129079e5f5398bffc218024f2dd95678fc564",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "suggest": {
+                "ext-event": "For better performance. "
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Workerman\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "walkor",
+                    "email": "walkor@workerman.net",
+                    "homepage": "http://www.workerman.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An asynchronous event driven PHP framework for easily building fast, scalable network applications.",
+            "homepage": "http://www.workerman.net",
+            "keywords": [
+                "asynchronous",
+                "event-loop"
+            ],
+            "time": "2017-12-06T04:17:52+00:00"
+        },
+        {
+            "name": "xtlsoft/nondb",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xtlsoft/NonDB.git",
+                "reference": "6599c13bb5feabe77d91764fdf3c24b786c777b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/xtlsoft/NonDB/6599c13bb5feabe77d91764fdf3c24b786c777b2.zip",
+                "reference": "6599c13bb5feabe77d91764fdf3c24b786c777b2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "NonDB\\": "./src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "xtl",
+                    "email": "xtl@xtlsoft.top"
+                }
+            ],
+            "description": "A NoSQL Database Based On Json Storage.",
+            "time": "2018-03-04T05:45:17+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "xtlsoft/nondb": 20,
+        "mixcm/passportlib": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
